@@ -27,7 +27,7 @@ public class BoundaryEmmenager {
 					break;
 
 				case 2:
-					//TODO a completer
+					emmenagerGaulois(nomVisiteur);
 					break;
 
 				default:
@@ -40,6 +40,13 @@ public class BoundaryEmmenager {
 	}
 
 	private void emmenagerDruide(String nomVisiteur) {
-		//TODO a completer
+		StringBuilder question = new StringBuilder();
+		question.append("Bienvenue Druide " + nomVisiteur + ".\n");
+		question.append("Quelle est votre force ?")
+	}
+	
+	
+	private void emmenagerGaulois(String nomVisiteur) {
+		
 	}
 }
